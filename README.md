@@ -23,7 +23,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create 10 Football players
 
 ## PROGRAM
-----
+```
 admin.py
 
 from django.contrib import admin
@@ -44,7 +44,7 @@ class Employee (models.Model):
 class EmployeeAdmin(admin.ModelAdmin):
     list_display=('eid','name','salary','age','email')
 
-----
+```
 
 ## OUTPUT
 
